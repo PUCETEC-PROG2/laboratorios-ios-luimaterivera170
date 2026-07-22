@@ -39,7 +39,7 @@ struct RepoItem: View {
                         Text("Lenguaje")
                             .fontWeight(.bold)
                         Spacer()
-                        Text("Swift")
+                        Text(language)
                     }
                     .font(.caption2)
                     .padding(.top, 0.1)
@@ -48,6 +48,7 @@ struct RepoItem: View {
         }
         .padding(.leading)
     }
+
 }
 
 #Preview {
